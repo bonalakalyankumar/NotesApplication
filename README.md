@@ -26,12 +26,11 @@ The **Notes Application** is a lightweight and efficient Android application for
 3. Build the project and run it on an Android emulator or device.
 
 ## 🎨 Visual Previews
-### Home Screen
 <p align="center">
-  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_1.png" />
-  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_2.png" />
-  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_3.png" />
-  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Screenshot_20250111_163856.png" />
+  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_1.png" width="20%" />
+  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_2.png" width="20%" />
+  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Sc_3.png" width="20%" />
+  <img src="https://github.com/bonalakalyankumar/NotesApplication/blob/master/Screenshot_20250111_163856.png" width="20%" />
 </p>
 
 ## 🌟 Key Highlights
