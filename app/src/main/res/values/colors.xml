@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F88379</color>
+    <color name="red">#c13b34</color>
+    <color name="Charcolgray">#808080</color>
+    <color name="Saltgray">#555555</color>
+    <color name="MustardYellow">#FFC107</color>
+
+    <color name="note_color_1">#947676</color> <!-- Mustard Yellow -->
+    <color name="note_color_2">#D0BCB4</color> <!-- Coral -->
+    <color name="note_color_3">#C8C7A1</color> <!-- Olive Green -->
+    <color name="note_color_4">#ADBD98</color> <!-- Light Blue -->
+    <color name="note_color_5">#87B687</color> <!-- Blush Pink -->
+    <color name="note_color_6">#AFBAD5</color> <!-- Mustard Yellow -->
+    <color name="note_color_7">#BA9EAC</color> <!-- Coral -->
+    <color name="note_color_8">#BCE0CE</color>
+</resources>
+
