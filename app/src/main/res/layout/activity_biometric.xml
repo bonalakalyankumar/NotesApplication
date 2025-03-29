@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kalyan.noteapplication.BiometericAuth">
+
+
+    <ImageView
+        android:id="@+id/LockImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="99dp"
+        android:src="@drawable/baseline_lock_24" />
+
+    <TextView
+        android:id="@+id/NoteHeading"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/LockImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="119dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="Notes Locked"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/unlockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="331dp"
+        android:backgroundTint="@color/black"
+        android:text="Unlock"
+        android:textColor="@color/red" />
+
+</RelativeLayout>

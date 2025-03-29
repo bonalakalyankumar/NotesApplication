@@ -60,4 +60,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
     implementation ("com.airbnb.android:lottie:3.4.1")
+
+    implementation ("androidx.biometric:biometric:1.0.1")  // Biometric authentication API
+    implementation ("androidx.appcompat:appcompat:1.3.1")
 }

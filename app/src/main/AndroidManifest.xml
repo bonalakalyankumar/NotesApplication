@@ -4,6 +4,9 @@
     android:versionCode="2"
     android:versionName="1.1">
 
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,7 +18,10 @@
         android:theme="@style/Theme.NotesApplication"
         tools:targetApi="31">
         <activity
-            android:name="com.kalyan.noteapplication.SplashActivity"
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kalyan.noteapplication.BiometericAuth"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,9 +31,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
